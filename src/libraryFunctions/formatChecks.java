@@ -4,9 +4,9 @@ import java.lang.Object;
 
 public class formatChecks {
 
-    public static boolean validEmail() {
+        public static boolean validEmail(String email) {
 // need to use method to check for high level domain
-        String email = "sgjsdkgsj@kjgdf.com";
+        
         boolean valid = false;
         if (email.length() <= 64) {
             if (email.contains("@")) {
@@ -17,12 +17,11 @@ public class formatChecks {
         return valid;
     }
 
-    public static boolean validPassword() {
-        String password = "sfsdfa";
-        String passwordSecondEntry = "dhbasdg";
+    public static boolean validPassword(String password, String passwordCheck) {
+        
         boolean valid = true;
 
-        valid = passwordEqual(valid, password, passwordSecondEntry);
+        valid = passwordEqual(valid, password, passwordCheck);
         if (valid == false) {
             return valid;
         }
@@ -44,10 +43,10 @@ public class formatChecks {
         return valid;
     }
 
-    public static boolean passwordEqual(Boolean valid, String password, String passwordSecondEntry) {
+    public static boolean passwordEqual(Boolean valid, String password, String passwordCheck) {
 
        
-        if (password.equals(passwordSecondEntry)&&(valid == true)) {          
+        if (password.equals(passwordCheck)&&(valid == true)) {          
             return valid;
         }
         else{

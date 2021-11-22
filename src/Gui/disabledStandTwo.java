@@ -7,14 +7,14 @@ package Gui;
 
 /**
  *
- * @author PC
+ * @author ny200852
  */
-public class userDetails extends javax.swing.JFrame {
+public class disabledStandTwo extends javax.swing.JFrame {
 
     /**
-     * Creates new form userDetails
+     * Creates new form disabledStandTwo
      */
-    public userDetails() {
+    public disabledStandTwo() {
         initComponents();
     }
 
@@ -60,20 +60,20 @@ public class userDetails extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(userDetails.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(disabledStandTwo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(userDetails.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(disabledStandTwo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(userDetails.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(disabledStandTwo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(userDetails.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(disabledStandTwo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new userDetails().setVisible(true);
+                new disabledStandTwo().setVisible(true);
             }
         });
     }

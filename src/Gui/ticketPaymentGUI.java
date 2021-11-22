@@ -8,6 +8,7 @@ package Gui;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import libraryFunctions.*;
+import Objects.*;
 
 /**
  *
@@ -15,9 +16,7 @@ import libraryFunctions.*;
  */
 public class ticketPaymentGUI extends javax.swing.JFrame {
 
-    /**
-     * Creates new form ticketPaymentGUI
-     */
+    
     public ticketPaymentGUI() {
         initComponents();
     }
@@ -146,7 +145,6 @@ public class ticketPaymentGUI extends javax.swing.JFrame {
 
     private void submitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitButtonActionPerformed
         String cardHolder = new String(cardHolderName.getText());
-        
         String cardnumber = new String(cardNumber.getText());
         String expiryDateString = new String(expiryDate.getText());
         DateTimeFormatter toExpiryDate = DateTimeFormatter.ofPattern("MM yy");
@@ -154,6 +152,18 @@ public class ticketPaymentGUI extends javax.swing.JFrame {
         
         String cvvString = new String(CVV.getText());
         int CVV = Integer.parseInt(cvvString);
+        boolean validCardDetails = paymentChecks.cardNumberCheck(cardHolder, cardnumber, CVV, expiryDate);
+        if(validCardDetails){
+        String bookingID = generateId.uniqueId();
+        LocalDate dateBooked = LocalDate.now();
+        
+        databaseOrders.addBooking(bookingID, dateBooked);
+        HomePage home = new HomePage();
+            home.setVisible(true);
+            this.dispose();
+        } else{
+            System.out.println("Incorrect card details");
+        }
     }//GEN-LAST:event_submitButtonActionPerformed
 
     private void cardHolderNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cardHolderNameActionPerformed

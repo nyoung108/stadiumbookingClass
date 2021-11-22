@@ -7,14 +7,14 @@ package Gui;
 
 /**
  *
- * @author PC
+ * @author ny200852
  */
-public class AvailableSeats extends javax.swing.JFrame {
+public class StandardStandOne extends javax.swing.JFrame {
 
     /**
-     * Creates new form AvailableSeats
+     * Creates new form StandardStandOne
      */
-    public AvailableSeats() {
+    public StandardStandOne() {
         initComponents();
     }
 
@@ -27,133 +27,106 @@ public class AvailableSeats extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel9 = new javax.swing.JLabel();
-        jToggleButton1 = new javax.swing.JToggleButton();
-        jToggleButton2 = new javax.swing.JToggleButton();
-        jToggleButton3 = new javax.swing.JToggleButton();
-        jToggleButton4 = new javax.swing.JToggleButton();
-        jToggleButton5 = new javax.swing.JToggleButton();
-        jToggleButton6 = new javax.swing.JToggleButton();
-        jToggleButton7 = new javax.swing.JToggleButton();
-        jToggleButton8 = new javax.swing.JToggleButton();
-        jToggleButton9 = new javax.swing.JToggleButton();
-        jToggleButton10 = new javax.swing.JToggleButton();
-        jToggleButton11 = new javax.swing.JToggleButton();
-        jToggleButton12 = new javax.swing.JToggleButton();
-        jToggleButton13 = new javax.swing.JToggleButton();
-        jToggleButton14 = new javax.swing.JToggleButton();
         jToggleButton15 = new javax.swing.JToggleButton();
+        jToggleButton42 = new javax.swing.JToggleButton();
         jToggleButton16 = new javax.swing.JToggleButton();
+        jToggleButton43 = new javax.swing.JToggleButton();
         jToggleButton17 = new javax.swing.JToggleButton();
         jToggleButton18 = new javax.swing.JToggleButton();
         jToggleButton19 = new javax.swing.JToggleButton();
         jToggleButton20 = new javax.swing.JToggleButton();
+        jToggleButton3 = new javax.swing.JToggleButton();
         jToggleButton21 = new javax.swing.JToggleButton();
+        jToggleButton64 = new javax.swing.JToggleButton();
         jToggleButton22 = new javax.swing.JToggleButton();
-        jToggleButton23 = new javax.swing.JToggleButton();
+        jToggleButton65 = new javax.swing.JToggleButton();
+        jToggleButton66 = new javax.swing.JToggleButton();
+        jToggleButton67 = new javax.swing.JToggleButton();
         jToggleButton24 = new javax.swing.JToggleButton();
+        jToggleButton68 = new javax.swing.JToggleButton();
         jToggleButton25 = new javax.swing.JToggleButton();
+        jToggleButton69 = new javax.swing.JToggleButton();
         jToggleButton26 = new javax.swing.JToggleButton();
+        jToggleButton70 = new javax.swing.JToggleButton();
         jToggleButton27 = new javax.swing.JToggleButton();
+        jToggleButton71 = new javax.swing.JToggleButton();
         jToggleButton28 = new javax.swing.JToggleButton();
+        jToggleButton23 = new javax.swing.JToggleButton();
+        jToggleButton72 = new javax.swing.JToggleButton();
+        jLabel4 = new javax.swing.JLabel();
         jToggleButton29 = new javax.swing.JToggleButton();
+        jToggleButton12 = new javax.swing.JToggleButton();
+        jLabel5 = new javax.swing.JLabel();
+        jToggleButton73 = new javax.swing.JToggleButton();
+        jLabel6 = new javax.swing.JLabel();
         jToggleButton30 = new javax.swing.JToggleButton();
-        jToggleButton31 = new javax.swing.JToggleButton();
-        jToggleButton32 = new javax.swing.JToggleButton();
-        jToggleButton33 = new javax.swing.JToggleButton();
-        jToggleButton34 = new javax.swing.JToggleButton();
-        jToggleButton35 = new javax.swing.JToggleButton();
-        jToggleButton36 = new javax.swing.JToggleButton();
-        jToggleButton37 = new javax.swing.JToggleButton();
-        jToggleButton38 = new javax.swing.JToggleButton();
-        jToggleButton39 = new javax.swing.JToggleButton();
-        jToggleButton40 = new javax.swing.JToggleButton();
-        jToggleButton41 = new javax.swing.JToggleButton();
-        jToggleButton42 = new javax.swing.JToggleButton();
-        jToggleButton43 = new javax.swing.JToggleButton();
+        jLabel7 = new javax.swing.JLabel();
+        jToggleButton4 = new javax.swing.JToggleButton();
         jToggleButton44 = new javax.swing.JToggleButton();
+        jToggleButton31 = new javax.swing.JToggleButton();
+        jLabel8 = new javax.swing.JLabel();
         jToggleButton45 = new javax.swing.JToggleButton();
+        jLabel10 = new javax.swing.JLabel();
         jToggleButton46 = new javax.swing.JToggleButton();
+        jToggleButton13 = new javax.swing.JToggleButton();
+        jToggleButton74 = new javax.swing.JToggleButton();
+        jToggleButton75 = new javax.swing.JToggleButton();
+        jToggleButton76 = new javax.swing.JToggleButton();
+        jToggleButton5 = new javax.swing.JToggleButton();
+        jToggleButton77 = new javax.swing.JToggleButton();
+        jToggleButton32 = new javax.swing.JToggleButton();
+        jToggleButton34 = new javax.swing.JToggleButton();
+        jToggleButton6 = new javax.swing.JToggleButton();
+        jToggleButton78 = new javax.swing.JToggleButton();
+        jToggleButton33 = new javax.swing.JToggleButton();
+        jToggleButton35 = new javax.swing.JToggleButton();
+        jLabel11 = new javax.swing.JLabel();
+        jToggleButton7 = new javax.swing.JToggleButton();
+        jToggleButton79 = new javax.swing.JToggleButton();
         jToggleButton47 = new javax.swing.JToggleButton();
+        jToggleButton8 = new javax.swing.JToggleButton();
+        jToggleButton36 = new javax.swing.JToggleButton();
         jToggleButton48 = new javax.swing.JToggleButton();
+        jToggleButton9 = new javax.swing.JToggleButton();
         jToggleButton49 = new javax.swing.JToggleButton();
+        jToggleButton10 = new javax.swing.JToggleButton();
         jToggleButton50 = new javax.swing.JToggleButton();
+        jToggleButton11 = new javax.swing.JToggleButton();
         jToggleButton51 = new javax.swing.JToggleButton();
         jToggleButton52 = new javax.swing.JToggleButton();
         jToggleButton53 = new javax.swing.JToggleButton();
         jToggleButton54 = new javax.swing.JToggleButton();
         jToggleButton55 = new javax.swing.JToggleButton();
+        jToggleButton80 = new javax.swing.JToggleButton();
+        jToggleButton37 = new javax.swing.JToggleButton();
+        jLabel1 = new javax.swing.JLabel();
+        jToggleButton38 = new javax.swing.JToggleButton();
+        jLabel2 = new javax.swing.JLabel();
+        jToggleButton39 = new javax.swing.JToggleButton();
+        jLabel3 = new javax.swing.JLabel();
+        jToggleButton40 = new javax.swing.JToggleButton();
         jToggleButton56 = new javax.swing.JToggleButton();
+        jToggleButton14 = new javax.swing.JToggleButton();
         jToggleButton57 = new javax.swing.JToggleButton();
+        jToggleButton41 = new javax.swing.JToggleButton();
         jToggleButton58 = new javax.swing.JToggleButton();
         jToggleButton59 = new javax.swing.JToggleButton();
         jToggleButton60 = new javax.swing.JToggleButton();
         jToggleButton61 = new javax.swing.JToggleButton();
         jToggleButton62 = new javax.swing.JToggleButton();
         jToggleButton63 = new javax.swing.JToggleButton();
-        jToggleButton64 = new javax.swing.JToggleButton();
-        jToggleButton65 = new javax.swing.JToggleButton();
-        jToggleButton66 = new javax.swing.JToggleButton();
-        jToggleButton67 = new javax.swing.JToggleButton();
-        jToggleButton68 = new javax.swing.JToggleButton();
-        jToggleButton69 = new javax.swing.JToggleButton();
-        jToggleButton70 = new javax.swing.JToggleButton();
-        jToggleButton71 = new javax.swing.JToggleButton();
-        jToggleButton72 = new javax.swing.JToggleButton();
-        jToggleButton73 = new javax.swing.JToggleButton();
-        jToggleButton74 = new javax.swing.JToggleButton();
-        jToggleButton75 = new javax.swing.JToggleButton();
-        jToggleButton76 = new javax.swing.JToggleButton();
-        jToggleButton77 = new javax.swing.JToggleButton();
-        jToggleButton78 = new javax.swing.JToggleButton();
-        jToggleButton79 = new javax.swing.JToggleButton();
-        jToggleButton80 = new javax.swing.JToggleButton();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-
-        jLabel9.setText("jLabel9");
+        jToggleButton1 = new javax.swing.JToggleButton();
+        jToggleButton2 = new javax.swing.JToggleButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jToggleButton1.setText("jToggleButton1");
-
-        jToggleButton2.setText("jToggleButton2");
-
-        jToggleButton3.setText("jToggleButton3");
-
-        jToggleButton4.setText("jToggleButton4");
-
-        jToggleButton5.setText("jToggleButton5");
-
-        jToggleButton6.setText("jToggleButton6");
-
-        jToggleButton7.setText("jToggleButton7");
-
-        jToggleButton8.setText("jToggleButton8");
-
-        jToggleButton9.setText("jToggleButton9");
-
-        jToggleButton10.setText("jToggleButton10");
-
-        jToggleButton11.setText("jToggleButton8");
-
-        jToggleButton12.setText("jToggleButton9");
-
-        jToggleButton13.setText("jToggleButton10");
-
-        jToggleButton14.setText("jToggleButton1");
-
         jToggleButton15.setText("jToggleButton2");
 
+        jToggleButton42.setText("jToggleButton10");
+
         jToggleButton16.setText("jToggleButton3");
+
+        jToggleButton43.setText("jToggleButton9");
 
         jToggleButton17.setText("jToggleButton4");
 
@@ -163,65 +136,119 @@ public class AvailableSeats extends javax.swing.JFrame {
 
         jToggleButton20.setText("jToggleButton7");
 
+        jToggleButton3.setText("jToggleButton3");
+
         jToggleButton21.setText("jToggleButton8");
+
+        jToggleButton64.setText("jToggleButton7");
 
         jToggleButton22.setText("jToggleButton6");
 
-        jToggleButton23.setText("jToggleButton9");
+        jToggleButton65.setText("jToggleButton8");
+
+        jToggleButton66.setText("jToggleButton6");
+
+        jToggleButton67.setText("jToggleButton1");
 
         jToggleButton24.setText("jToggleButton7");
 
+        jToggleButton68.setText("jToggleButton9");
+
         jToggleButton25.setText("jToggleButton10");
+
+        jToggleButton69.setText("jToggleButton2");
 
         jToggleButton26.setText("jToggleButton8");
 
+        jToggleButton70.setText("jToggleButton3");
+
         jToggleButton27.setText("jToggleButton1");
+
+        jToggleButton71.setText("jToggleButton7");
 
         jToggleButton28.setText("jToggleButton9");
 
+        jToggleButton23.setText("jToggleButton9");
+
+        jToggleButton72.setText("jToggleButton10");
+
+        jLabel4.setText("c");
+
         jToggleButton29.setText("jToggleButton2");
+
+        jToggleButton12.setText("jToggleButton9");
+
+        jLabel5.setText("d");
+
+        jToggleButton73.setText("jToggleButton4");
+
+        jLabel6.setText("e");
 
         jToggleButton30.setText("jToggleButton10");
 
-        jToggleButton31.setText("jToggleButton3");
+        jLabel7.setText("f");
 
-        jToggleButton32.setText("jToggleButton1");
-
-        jToggleButton33.setText("jToggleButton4");
-
-        jToggleButton34.setText("jToggleButton2");
-
-        jToggleButton35.setText("jToggleButton5");
-
-        jToggleButton36.setText("jToggleButton3");
-
-        jToggleButton37.setText("jToggleButton6");
-
-        jToggleButton38.setText("jToggleButton4");
-
-        jToggleButton39.setText("jToggleButton7");
-
-        jToggleButton40.setText("jToggleButton5");
-
-        jToggleButton41.setText("jToggleButton8");
-
-        jToggleButton42.setText("jToggleButton10");
-
-        jToggleButton43.setText("jToggleButton9");
+        jToggleButton4.setText("jToggleButton4");
 
         jToggleButton44.setText("jToggleButton3");
 
+        jToggleButton31.setText("jToggleButton3");
+
+        jLabel8.setText("g");
+
         jToggleButton45.setText("jToggleButton10");
+
+        jLabel10.setText("h");
 
         jToggleButton46.setText("jToggleButton1");
 
+        jToggleButton13.setText("jToggleButton10");
+
+        jToggleButton74.setText("jToggleButton8");
+
+        jToggleButton75.setText("jToggleButton5");
+
+        jToggleButton76.setText("jToggleButton1");
+
+        jToggleButton5.setText("jToggleButton5");
+
+        jToggleButton77.setText("jToggleButton6");
+
+        jToggleButton32.setText("jToggleButton1");
+
+        jToggleButton34.setText("jToggleButton2");
+
+        jToggleButton6.setText("jToggleButton6");
+
+        jToggleButton78.setText("jToggleButton9");
+
+        jToggleButton33.setText("jToggleButton4");
+
+        jToggleButton35.setText("jToggleButton5");
+
+        jLabel11.setText("Select up to 6 seats");
+
+        jToggleButton7.setText("jToggleButton7");
+
+        jToggleButton79.setText("jToggleButton7");
+
         jToggleButton47.setText("jToggleButton8");
+
+        jToggleButton8.setText("jToggleButton8");
+
+        jToggleButton36.setText("jToggleButton3");
 
         jToggleButton48.setText("jToggleButton4");
 
+        jToggleButton9.setText("jToggleButton9");
+
         jToggleButton49.setText("jToggleButton9");
 
+        jToggleButton10.setText("jToggleButton10");
+
         jToggleButton50.setText("jToggleButton10");
+
+        jToggleButton11.setText("jToggleButton8");
 
         jToggleButton51.setText("jToggleButton2");
 
@@ -233,9 +260,29 @@ public class AvailableSeats extends javax.swing.JFrame {
 
         jToggleButton55.setText("jToggleButton2");
 
+        jToggleButton80.setText("jToggleButton2");
+
+        jToggleButton37.setText("jToggleButton6");
+
+        jLabel1.setText("     1        2           3          4          5         6        7          8          9         10");
+
+        jToggleButton38.setText("jToggleButton4");
+
+        jLabel2.setText("a");
+
+        jToggleButton39.setText("jToggleButton7");
+
+        jLabel3.setText("b");
+
+        jToggleButton40.setText("jToggleButton5");
+
         jToggleButton56.setText("jToggleButton6");
 
+        jToggleButton14.setText("jToggleButton1");
+
         jToggleButton57.setText("jToggleButton3");
+
+        jToggleButton41.setText("jToggleButton8");
 
         jToggleButton58.setText("jToggleButton4");
 
@@ -249,59 +296,14 @@ public class AvailableSeats extends javax.swing.JFrame {
 
         jToggleButton63.setText("jToggleButton6");
 
-        jToggleButton64.setText("jToggleButton7");
+        jToggleButton1.setText("jToggleButton1");
+        jToggleButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton1ActionPerformed(evt);
+            }
+        });
 
-        jToggleButton65.setText("jToggleButton8");
-
-        jToggleButton66.setText("jToggleButton6");
-
-        jToggleButton67.setText("jToggleButton1");
-
-        jToggleButton68.setText("jToggleButton9");
-
-        jToggleButton69.setText("jToggleButton2");
-
-        jToggleButton70.setText("jToggleButton3");
-
-        jToggleButton71.setText("jToggleButton7");
-
-        jToggleButton72.setText("jToggleButton10");
-
-        jToggleButton73.setText("jToggleButton4");
-
-        jToggleButton74.setText("jToggleButton8");
-
-        jToggleButton75.setText("jToggleButton5");
-
-        jToggleButton76.setText("jToggleButton1");
-
-        jToggleButton77.setText("jToggleButton6");
-
-        jToggleButton78.setText("jToggleButton9");
-
-        jToggleButton79.setText("jToggleButton7");
-
-        jToggleButton80.setText("jToggleButton2");
-
-        jLabel1.setText("     1           2           3           4           5           6           7           8           9          10");
-
-        jLabel2.setText("a");
-
-        jLabel3.setText("b");
-
-        jLabel4.setText("c");
-
-        jLabel5.setText("d");
-
-        jLabel6.setText("e");
-
-        jLabel7.setText("f");
-
-        jLabel8.setText("g");
-
-        jLabel10.setText("h");
-
-        jLabel11.setText("Select up to 6 seats");
+        jToggleButton2.setText("jToggleButton2");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -488,11 +490,8 @@ public class AvailableSeats extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(190, 190, 190)
                         .addComponent(jLabel11)))
-                .addContainerGap(52, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-
-        layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {jToggleButton1, jToggleButton10, jToggleButton11, jToggleButton12, jToggleButton13, jToggleButton14, jToggleButton15, jToggleButton16, jToggleButton17, jToggleButton18, jToggleButton19, jToggleButton2, jToggleButton20, jToggleButton21, jToggleButton22, jToggleButton23, jToggleButton24, jToggleButton25, jToggleButton26, jToggleButton27, jToggleButton28, jToggleButton29, jToggleButton3, jToggleButton30, jToggleButton31, jToggleButton32, jToggleButton33, jToggleButton34, jToggleButton35, jToggleButton36, jToggleButton37, jToggleButton38, jToggleButton39, jToggleButton4, jToggleButton40, jToggleButton41, jToggleButton42, jToggleButton43, jToggleButton44, jToggleButton45, jToggleButton46, jToggleButton47, jToggleButton48, jToggleButton49, jToggleButton5, jToggleButton50, jToggleButton51, jToggleButton52, jToggleButton53, jToggleButton54, jToggleButton55, jToggleButton56, jToggleButton57, jToggleButton58, jToggleButton59, jToggleButton6, jToggleButton60, jToggleButton61, jToggleButton62, jToggleButton63, jToggleButton64, jToggleButton65, jToggleButton66, jToggleButton67, jToggleButton68, jToggleButton69, jToggleButton7, jToggleButton70, jToggleButton71, jToggleButton72, jToggleButton73, jToggleButton74, jToggleButton75, jToggleButton76, jToggleButton77, jToggleButton78, jToggleButton79, jToggleButton8, jToggleButton80, jToggleButton9});
-
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
@@ -607,10 +606,12 @@ public class AvailableSeats extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jToggleButton1, jToggleButton10, jToggleButton11, jToggleButton12, jToggleButton13, jToggleButton14, jToggleButton15, jToggleButton16, jToggleButton17, jToggleButton18, jToggleButton19, jToggleButton2, jToggleButton20, jToggleButton21, jToggleButton22, jToggleButton23, jToggleButton24, jToggleButton25, jToggleButton26, jToggleButton27, jToggleButton28, jToggleButton29, jToggleButton3, jToggleButton30, jToggleButton31, jToggleButton32, jToggleButton33, jToggleButton34, jToggleButton35, jToggleButton36, jToggleButton37, jToggleButton38, jToggleButton39, jToggleButton4, jToggleButton40, jToggleButton41, jToggleButton42, jToggleButton43, jToggleButton44, jToggleButton45, jToggleButton46, jToggleButton47, jToggleButton48, jToggleButton49, jToggleButton5, jToggleButton50, jToggleButton51, jToggleButton52, jToggleButton53, jToggleButton54, jToggleButton55, jToggleButton56, jToggleButton57, jToggleButton58, jToggleButton59, jToggleButton6, jToggleButton60, jToggleButton61, jToggleButton62, jToggleButton63, jToggleButton64, jToggleButton65, jToggleButton66, jToggleButton67, jToggleButton68, jToggleButton69, jToggleButton7, jToggleButton70, jToggleButton71, jToggleButton72, jToggleButton73, jToggleButton74, jToggleButton75, jToggleButton76, jToggleButton77, jToggleButton78, jToggleButton79, jToggleButton8, jToggleButton80, jToggleButton9});
-
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jToggleButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -629,20 +630,20 @@ public class AvailableSeats extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(AvailableSeats.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(StandardStandOne.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(AvailableSeats.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(StandardStandOne.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(AvailableSeats.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(StandardStandOne.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(AvailableSeats.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(StandardStandOne.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new AvailableSeats().setVisible(true);
+                new StandardStandOne().setVisible(true);
             }
         });
     }
@@ -658,7 +659,6 @@ public class AvailableSeats extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JToggleButton jToggleButton1;
     private javax.swing.JToggleButton jToggleButton10;
     private javax.swing.JToggleButton jToggleButton11;

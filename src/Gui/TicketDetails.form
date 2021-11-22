@@ -64,21 +64,33 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Standard ticket"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="standardTicketActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="vipTicket">
       <Properties>
         <Property name="text" type="java.lang.String" value="VIP ticket"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="vipTicketActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="disabledTicket">
       <Properties>
         <Property name="text" type="java.lang.String" value="Disabled ticket"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="disabledTicketActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="childTicket">
       <Properties>
         <Property name="text" type="java.lang.String" value="Child ticket"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="childTicketActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>

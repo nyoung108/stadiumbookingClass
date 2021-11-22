@@ -4,11 +4,7 @@
  * and open the template in the editor.
  */
 package Gui;
-
-/**
- *
- * @author PC
- */
+import libraryFunctions.*;
 public class LoginPage extends javax.swing.JFrame {
 
     /**
@@ -128,8 +124,17 @@ public class LoginPage extends javax.swing.JFrame {
     }//GEN-LAST:event_enteredPasswordActionPerformed
 
     private void LogInButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LogInButtonActionPerformed
-        String email = new String(enteredEmail.getText());
+         String email = new String(enteredEmail.getText());
         String password = new String(enteredPassword.getText());
+        boolean validUser = databaseOrders.userLogIn(email, password);
+        if(validUser){
+            System.out.println("Welcome");
+            HomePage home = new HomePage();
+            home.setVisible(true);
+            this.dispose();
+        } else{
+            System.out.println("Details incorrect. Try again");
+        }
     }//GEN-LAST:event_LogInButtonActionPerformed
 
     /**

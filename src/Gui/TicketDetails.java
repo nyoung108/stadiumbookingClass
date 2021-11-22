@@ -11,9 +11,7 @@ package Gui;
  */
 public class TicketDetails extends javax.swing.JFrame {
 
-    /**
-     * Creates new form TicketDetails
-     */
+   private String ticketSelected;
     public TicketDetails() {
         initComponents();
     }
@@ -38,12 +36,32 @@ public class TicketDetails extends javax.swing.JFrame {
         jLabel1.setText("Select Ticket Type:");
 
         standardTicket.setText("Standard ticket");
+        standardTicket.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                standardTicketActionPerformed(evt);
+            }
+        });
 
         vipTicket.setText("VIP ticket");
+        vipTicket.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                vipTicketActionPerformed(evt);
+            }
+        });
 
         disabledTicket.setText("Disabled ticket");
+        disabledTicket.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                disabledTicketActionPerformed(evt);
+            }
+        });
 
         childTicket.setText("Child ticket");
+        childTicket.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                childTicketActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -77,6 +95,22 @@ public class TicketDetails extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void standardTicketActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_standardTicketActionPerformed
+        ticketSelected = "standard";
+    }//GEN-LAST:event_standardTicketActionPerformed
+
+    private void vipTicketActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_vipTicketActionPerformed
+        ticketSelected = "vip";
+    }//GEN-LAST:event_vipTicketActionPerformed
+
+    private void disabledTicketActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_disabledTicketActionPerformed
+        ticketSelected = "disabled";
+    }//GEN-LAST:event_disabledTicketActionPerformed
+
+    private void childTicketActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_childTicketActionPerformed
+        ticketSelected = "child";
+    }//GEN-LAST:event_childTicketActionPerformed
 
     /**
      * @param args the command line arguments
