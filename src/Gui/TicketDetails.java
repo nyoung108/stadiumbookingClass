@@ -5,13 +5,17 @@
  */
 package Gui;
 
+import javax.swing.JLabel;
+
 /**
  *
  * @author PC
  */
 public class TicketDetails extends javax.swing.JFrame {
 
-   private String ticketSelected;
+    private String ticketSelected;
+    private String eventname;
+
     public TicketDetails() {
         initComponents();
     }
@@ -110,7 +114,18 @@ public class TicketDetails extends javax.swing.JFrame {
 
     private void childTicketActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_childTicketActionPerformed
         ticketSelected = "child";
+        toAvailableStands();
     }//GEN-LAST:event_childTicketActionPerformed
+    public void getEventName(String eventName) {
+        eventname = eventName;
+    }
+
+    public void toAvailableStands() {
+        AvailableStands availableStands = new AvailableStands();
+        availableStands.getTicketDetails(ticketSelected, eventname);
+        availableStands.setVisible(true);
+        this.dispose();
+    }
 
     /**
      * @param args the command line arguments

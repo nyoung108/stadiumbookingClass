@@ -102,4 +102,21 @@ public class databaseOrders {
 
         }
     }
+    public static String getEventID(String eventName){
+       
+        try {
+            Connection con = DriverManager.getConnection("jdbc:derby://localhost:1527/StadiumBookingSystem", "Noah", "1234");
+            Statement statement = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
+            String sql= "SELECT EventID FROM EventTABLE WHERE Name = "+eventName;
+            ResultSet rs = databaseManagement.executeQuery(sql);
+            String eventID = rs.getString("EventID");
+            rs.close();
+            con.close();
+            return eventID;
+        } catch (Exception e) {
+            System.out.println(e);
+
+        }
+        return null;
+    }
 }

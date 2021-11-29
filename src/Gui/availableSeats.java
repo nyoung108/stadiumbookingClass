@@ -9,12 +9,12 @@ package Gui;
  *
  * @author ny200852
  */
-public class StandardStandOne extends javax.swing.JFrame {
+public class availableSeats extends javax.swing.JFrame {
 
     /**
-     * Creates new form StandardStandOne
+     * Creates new form availableSeats
      */
-    public StandardStandOne() {
+    public availableSeats() {
         initComponents();
     }
 
@@ -27,180 +27,140 @@ public class StandardStandOne extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jToggleButton39 = new javax.swing.JToggleButton();
+        jLabel3 = new javax.swing.JLabel();
         jToggleButton15 = new javax.swing.JToggleButton();
+        jToggleButton40 = new javax.swing.JToggleButton();
         jToggleButton42 = new javax.swing.JToggleButton();
+        jToggleButton56 = new javax.swing.JToggleButton();
         jToggleButton16 = new javax.swing.JToggleButton();
-        jToggleButton43 = new javax.swing.JToggleButton();
-        jToggleButton17 = new javax.swing.JToggleButton();
-        jToggleButton18 = new javax.swing.JToggleButton();
-        jToggleButton19 = new javax.swing.JToggleButton();
-        jToggleButton20 = new javax.swing.JToggleButton();
-        jToggleButton3 = new javax.swing.JToggleButton();
-        jToggleButton21 = new javax.swing.JToggleButton();
-        jToggleButton64 = new javax.swing.JToggleButton();
-        jToggleButton22 = new javax.swing.JToggleButton();
-        jToggleButton65 = new javax.swing.JToggleButton();
-        jToggleButton66 = new javax.swing.JToggleButton();
-        jToggleButton67 = new javax.swing.JToggleButton();
-        jToggleButton24 = new javax.swing.JToggleButton();
-        jToggleButton68 = new javax.swing.JToggleButton();
-        jToggleButton25 = new javax.swing.JToggleButton();
-        jToggleButton69 = new javax.swing.JToggleButton();
-        jToggleButton26 = new javax.swing.JToggleButton();
-        jToggleButton70 = new javax.swing.JToggleButton();
-        jToggleButton27 = new javax.swing.JToggleButton();
-        jToggleButton71 = new javax.swing.JToggleButton();
-        jToggleButton28 = new javax.swing.JToggleButton();
-        jToggleButton23 = new javax.swing.JToggleButton();
-        jToggleButton72 = new javax.swing.JToggleButton();
-        jLabel4 = new javax.swing.JLabel();
-        jToggleButton29 = new javax.swing.JToggleButton();
-        jToggleButton12 = new javax.swing.JToggleButton();
-        jLabel5 = new javax.swing.JLabel();
-        jToggleButton73 = new javax.swing.JToggleButton();
-        jLabel6 = new javax.swing.JLabel();
-        jToggleButton30 = new javax.swing.JToggleButton();
-        jLabel7 = new javax.swing.JLabel();
-        jToggleButton4 = new javax.swing.JToggleButton();
         jToggleButton44 = new javax.swing.JToggleButton();
+        jToggleButton14 = new javax.swing.JToggleButton();
+        jToggleButton43 = new javax.swing.JToggleButton();
         jToggleButton31 = new javax.swing.JToggleButton();
+        jToggleButton57 = new javax.swing.JToggleButton();
+        jToggleButton17 = new javax.swing.JToggleButton();
         jLabel8 = new javax.swing.JLabel();
+        jToggleButton41 = new javax.swing.JToggleButton();
         jToggleButton45 = new javax.swing.JToggleButton();
+        jToggleButton58 = new javax.swing.JToggleButton();
         jLabel10 = new javax.swing.JLabel();
+        jToggleButton59 = new javax.swing.JToggleButton();
         jToggleButton46 = new javax.swing.JToggleButton();
+        jToggleButton60 = new javax.swing.JToggleButton();
         jToggleButton13 = new javax.swing.JToggleButton();
         jToggleButton74 = new javax.swing.JToggleButton();
         jToggleButton75 = new javax.swing.JToggleButton();
         jToggleButton76 = new javax.swing.JToggleButton();
-        jToggleButton5 = new javax.swing.JToggleButton();
-        jToggleButton77 = new javax.swing.JToggleButton();
-        jToggleButton32 = new javax.swing.JToggleButton();
-        jToggleButton34 = new javax.swing.JToggleButton();
-        jToggleButton6 = new javax.swing.JToggleButton();
-        jToggleButton78 = new javax.swing.JToggleButton();
-        jToggleButton33 = new javax.swing.JToggleButton();
-        jToggleButton35 = new javax.swing.JToggleButton();
-        jLabel11 = new javax.swing.JLabel();
-        jToggleButton7 = new javax.swing.JToggleButton();
-        jToggleButton79 = new javax.swing.JToggleButton();
-        jToggleButton47 = new javax.swing.JToggleButton();
-        jToggleButton8 = new javax.swing.JToggleButton();
-        jToggleButton36 = new javax.swing.JToggleButton();
-        jToggleButton48 = new javax.swing.JToggleButton();
-        jToggleButton9 = new javax.swing.JToggleButton();
-        jToggleButton49 = new javax.swing.JToggleButton();
-        jToggleButton10 = new javax.swing.JToggleButton();
-        jToggleButton50 = new javax.swing.JToggleButton();
-        jToggleButton11 = new javax.swing.JToggleButton();
-        jToggleButton51 = new javax.swing.JToggleButton();
-        jToggleButton52 = new javax.swing.JToggleButton();
-        jToggleButton53 = new javax.swing.JToggleButton();
-        jToggleButton54 = new javax.swing.JToggleButton();
-        jToggleButton55 = new javax.swing.JToggleButton();
-        jToggleButton80 = new javax.swing.JToggleButton();
-        jToggleButton37 = new javax.swing.JToggleButton();
-        jLabel1 = new javax.swing.JLabel();
-        jToggleButton38 = new javax.swing.JToggleButton();
-        jLabel2 = new javax.swing.JLabel();
-        jToggleButton39 = new javax.swing.JToggleButton();
-        jLabel3 = new javax.swing.JLabel();
-        jToggleButton40 = new javax.swing.JToggleButton();
-        jToggleButton56 = new javax.swing.JToggleButton();
-        jToggleButton14 = new javax.swing.JToggleButton();
-        jToggleButton57 = new javax.swing.JToggleButton();
-        jToggleButton41 = new javax.swing.JToggleButton();
-        jToggleButton58 = new javax.swing.JToggleButton();
-        jToggleButton59 = new javax.swing.JToggleButton();
-        jToggleButton60 = new javax.swing.JToggleButton();
         jToggleButton61 = new javax.swing.JToggleButton();
         jToggleButton62 = new javax.swing.JToggleButton();
         jToggleButton63 = new javax.swing.JToggleButton();
         jToggleButton1 = new javax.swing.JToggleButton();
+        jToggleButton5 = new javax.swing.JToggleButton();
         jToggleButton2 = new javax.swing.JToggleButton();
+        jToggleButton77 = new javax.swing.JToggleButton();
+        jToggleButton32 = new javax.swing.JToggleButton();
+        jToggleButton34 = new javax.swing.JToggleButton();
+        jToggleButton18 = new javax.swing.JToggleButton();
+        jToggleButton6 = new javax.swing.JToggleButton();
+        jToggleButton19 = new javax.swing.JToggleButton();
+        jToggleButton78 = new javax.swing.JToggleButton();
+        jToggleButton20 = new javax.swing.JToggleButton();
+        jToggleButton33 = new javax.swing.JToggleButton();
+        jToggleButton3 = new javax.swing.JToggleButton();
+        jToggleButton35 = new javax.swing.JToggleButton();
+        jToggleButton21 = new javax.swing.JToggleButton();
+        jLabel11 = new javax.swing.JLabel();
+        jToggleButton64 = new javax.swing.JToggleButton();
+        jToggleButton7 = new javax.swing.JToggleButton();
+        jToggleButton22 = new javax.swing.JToggleButton();
+        jToggleButton65 = new javax.swing.JToggleButton();
+        jToggleButton66 = new javax.swing.JToggleButton();
+        jToggleButton67 = new javax.swing.JToggleButton();
+        jToggleButton79 = new javax.swing.JToggleButton();
+        jToggleButton47 = new javax.swing.JToggleButton();
+        jToggleButton8 = new javax.swing.JToggleButton();
+        jToggleButton36 = new javax.swing.JToggleButton();
+        jToggleButton24 = new javax.swing.JToggleButton();
+        jToggleButton48 = new javax.swing.JToggleButton();
+        jToggleButton68 = new javax.swing.JToggleButton();
+        jToggleButton9 = new javax.swing.JToggleButton();
+        jToggleButton25 = new javax.swing.JToggleButton();
+        jToggleButton49 = new javax.swing.JToggleButton();
+        jToggleButton69 = new javax.swing.JToggleButton();
+        jToggleButton10 = new javax.swing.JToggleButton();
+        jToggleButton26 = new javax.swing.JToggleButton();
+        jToggleButton50 = new javax.swing.JToggleButton();
+        jToggleButton70 = new javax.swing.JToggleButton();
+        jToggleButton11 = new javax.swing.JToggleButton();
+        jToggleButton27 = new javax.swing.JToggleButton();
+        jToggleButton71 = new javax.swing.JToggleButton();
+        jToggleButton28 = new javax.swing.JToggleButton();
+        jToggleButton23 = new javax.swing.JToggleButton();
+        jToggleButton51 = new javax.swing.JToggleButton();
+        jToggleButton52 = new javax.swing.JToggleButton();
+        jToggleButton53 = new javax.swing.JToggleButton();
+        jToggleButton54 = new javax.swing.JToggleButton();
+        jToggleButton72 = new javax.swing.JToggleButton();
+        jToggleButton55 = new javax.swing.JToggleButton();
+        jLabel4 = new javax.swing.JLabel();
+        jToggleButton80 = new javax.swing.JToggleButton();
+        jToggleButton29 = new javax.swing.JToggleButton();
+        jToggleButton37 = new javax.swing.JToggleButton();
+        jToggleButton12 = new javax.swing.JToggleButton();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jToggleButton38 = new javax.swing.JToggleButton();
+        jToggleButton73 = new javax.swing.JToggleButton();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jToggleButton30 = new javax.swing.JToggleButton();
+        jLabel7 = new javax.swing.JLabel();
+        jToggleButton4 = new javax.swing.JToggleButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jToggleButton39.setText("jToggleButton7");
+
+        jLabel3.setText("b");
+
         jToggleButton15.setText("jToggleButton2");
+
+        jToggleButton40.setText("jToggleButton5");
 
         jToggleButton42.setText("jToggleButton10");
 
+        jToggleButton56.setText("jToggleButton6");
+
         jToggleButton16.setText("jToggleButton3");
-
-        jToggleButton43.setText("jToggleButton9");
-
-        jToggleButton17.setText("jToggleButton4");
-
-        jToggleButton18.setText("jToggleButton5");
-
-        jToggleButton19.setText("jToggleButton6");
-
-        jToggleButton20.setText("jToggleButton7");
-
-        jToggleButton3.setText("jToggleButton3");
-
-        jToggleButton21.setText("jToggleButton8");
-
-        jToggleButton64.setText("jToggleButton7");
-
-        jToggleButton22.setText("jToggleButton6");
-
-        jToggleButton65.setText("jToggleButton8");
-
-        jToggleButton66.setText("jToggleButton6");
-
-        jToggleButton67.setText("jToggleButton1");
-
-        jToggleButton24.setText("jToggleButton7");
-
-        jToggleButton68.setText("jToggleButton9");
-
-        jToggleButton25.setText("jToggleButton10");
-
-        jToggleButton69.setText("jToggleButton2");
-
-        jToggleButton26.setText("jToggleButton8");
-
-        jToggleButton70.setText("jToggleButton3");
-
-        jToggleButton27.setText("jToggleButton1");
-
-        jToggleButton71.setText("jToggleButton7");
-
-        jToggleButton28.setText("jToggleButton9");
-
-        jToggleButton23.setText("jToggleButton9");
-
-        jToggleButton72.setText("jToggleButton10");
-
-        jLabel4.setText("c");
-
-        jToggleButton29.setText("jToggleButton2");
-
-        jToggleButton12.setText("jToggleButton9");
-
-        jLabel5.setText("d");
-
-        jToggleButton73.setText("jToggleButton4");
-
-        jLabel6.setText("e");
-
-        jToggleButton30.setText("jToggleButton10");
-
-        jLabel7.setText("f");
-
-        jToggleButton4.setText("jToggleButton4");
 
         jToggleButton44.setText("jToggleButton3");
 
+        jToggleButton14.setText("jToggleButton1");
+
+        jToggleButton43.setText("jToggleButton9");
+
         jToggleButton31.setText("jToggleButton3");
+
+        jToggleButton57.setText("jToggleButton3");
+
+        jToggleButton17.setText("jToggleButton4");
 
         jLabel8.setText("g");
 
+        jToggleButton41.setText("jToggleButton8");
+
         jToggleButton45.setText("jToggleButton10");
+
+        jToggleButton58.setText("jToggleButton4");
 
         jLabel10.setText("h");
 
+        jToggleButton59.setText("jToggleButton4");
+
         jToggleButton46.setText("jToggleButton1");
+
+        jToggleButton60.setText("jToggleButton7");
 
         jToggleButton13.setText("jToggleButton10");
 
@@ -210,7 +170,17 @@ public class StandardStandOne extends javax.swing.JFrame {
 
         jToggleButton76.setText("jToggleButton1");
 
+        jToggleButton61.setText("jToggleButton5");
+
+        jToggleButton62.setText("jToggleButton5");
+
+        jToggleButton63.setText("jToggleButton6");
+
+        jToggleButton1.setText("jToggleButton1");
+
         jToggleButton5.setText("jToggleButton5");
+
+        jToggleButton2.setText("jToggleButton2");
 
         jToggleButton77.setText("jToggleButton6");
 
@@ -218,17 +188,42 @@ public class StandardStandOne extends javax.swing.JFrame {
 
         jToggleButton34.setText("jToggleButton2");
 
+        jToggleButton18.setText("jToggleButton5");
+
         jToggleButton6.setText("jToggleButton6");
+        jToggleButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton6ActionPerformed(evt);
+            }
+        });
+
+        jToggleButton19.setText("jToggleButton6");
 
         jToggleButton78.setText("jToggleButton9");
 
+        jToggleButton20.setText("jToggleButton7");
+
         jToggleButton33.setText("jToggleButton4");
+
+        jToggleButton3.setText("jToggleButton3");
 
         jToggleButton35.setText("jToggleButton5");
 
+        jToggleButton21.setText("jToggleButton8");
+
         jLabel11.setText("Select up to 6 seats");
 
+        jToggleButton64.setText("jToggleButton7");
+
         jToggleButton7.setText("jToggleButton7");
+
+        jToggleButton22.setText("jToggleButton6");
+
+        jToggleButton65.setText("jToggleButton8");
+
+        jToggleButton66.setText("jToggleButton6");
+
+        jToggleButton67.setText("jToggleButton1");
 
         jToggleButton79.setText("jToggleButton7");
 
@@ -238,17 +233,37 @@ public class StandardStandOne extends javax.swing.JFrame {
 
         jToggleButton36.setText("jToggleButton3");
 
+        jToggleButton24.setText("jToggleButton7");
+
         jToggleButton48.setText("jToggleButton4");
+
+        jToggleButton68.setText("jToggleButton9");
 
         jToggleButton9.setText("jToggleButton9");
 
+        jToggleButton25.setText("jToggleButton10");
+
         jToggleButton49.setText("jToggleButton9");
+
+        jToggleButton69.setText("jToggleButton2");
 
         jToggleButton10.setText("jToggleButton10");
 
+        jToggleButton26.setText("jToggleButton8");
+
         jToggleButton50.setText("jToggleButton10");
 
+        jToggleButton70.setText("jToggleButton3");
+
         jToggleButton11.setText("jToggleButton8");
+
+        jToggleButton27.setText("jToggleButton1");
+
+        jToggleButton71.setText("jToggleButton7");
+
+        jToggleButton28.setText("jToggleButton9");
+
+        jToggleButton23.setText("jToggleButton9");
 
         jToggleButton51.setText("jToggleButton2");
 
@@ -258,52 +273,37 @@ public class StandardStandOne extends javax.swing.JFrame {
 
         jToggleButton54.setText("jToggleButton3");
 
+        jToggleButton72.setText("jToggleButton10");
+
         jToggleButton55.setText("jToggleButton2");
+
+        jLabel4.setText("c");
 
         jToggleButton80.setText("jToggleButton2");
 
+        jToggleButton29.setText("jToggleButton2");
+
         jToggleButton37.setText("jToggleButton6");
+
+        jToggleButton12.setText("jToggleButton9");
 
         jLabel1.setText("     1        2           3          4          5         6        7          8          9         10");
 
+        jLabel5.setText("d");
+
         jToggleButton38.setText("jToggleButton4");
+
+        jToggleButton73.setText("jToggleButton4");
 
         jLabel2.setText("a");
 
-        jToggleButton39.setText("jToggleButton7");
+        jLabel6.setText("e");
 
-        jLabel3.setText("b");
+        jToggleButton30.setText("jToggleButton10");
 
-        jToggleButton40.setText("jToggleButton5");
+        jLabel7.setText("f");
 
-        jToggleButton56.setText("jToggleButton6");
-
-        jToggleButton14.setText("jToggleButton1");
-
-        jToggleButton57.setText("jToggleButton3");
-
-        jToggleButton41.setText("jToggleButton8");
-
-        jToggleButton58.setText("jToggleButton4");
-
-        jToggleButton59.setText("jToggleButton4");
-
-        jToggleButton60.setText("jToggleButton7");
-
-        jToggleButton61.setText("jToggleButton5");
-
-        jToggleButton62.setText("jToggleButton5");
-
-        jToggleButton63.setText("jToggleButton6");
-
-        jToggleButton1.setText("jToggleButton1");
-        jToggleButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jToggleButton1ActionPerformed(evt);
-            }
-        });
-
-        jToggleButton2.setText("jToggleButton2");
+        jToggleButton4.setText("jToggleButton4");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -609,9 +609,9 @@ public class StandardStandOne extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
+    private void jToggleButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton6ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jToggleButton1ActionPerformed
+    }//GEN-LAST:event_jToggleButton6ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -630,20 +630,20 @@ public class StandardStandOne extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(StandardStandOne.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(availableSeats.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(StandardStandOne.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(availableSeats.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(StandardStandOne.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(availableSeats.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(StandardStandOne.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(availableSeats.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new StandardStandOne().setVisible(true);
+                new availableSeats().setVisible(true);
             }
         });
     }

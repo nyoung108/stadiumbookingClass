@@ -6,6 +6,7 @@ public class formatChecks {
 
         public static boolean validEmail(String email) {
 // need to use method to check for high level domain
+//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
         
         boolean valid = false;
         if (email.length() <= 64) {
